@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/astro.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>CloudLumin</title>
+	</head>
+	<body class="top-0 left-0 -z-50 bg-fixed bg-[#1B1B1D]">
+		<slot/>
+		<video autoplay loop muted class="absolute top-0 left-0 w-full h-full object-cover -z-50">
+      <source src="background.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+	</body>
+</html>
+
+<style>
+</style>
